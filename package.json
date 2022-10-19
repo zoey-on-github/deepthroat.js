@@ -1,4 +1,16 @@
 {
 "name": "@julieonnode/deepthroat",
-"version": "1.0.0"
+"version": "1.0.0",
+"description": "deep copies a object",
+"license": "MIT",
+"repository":"zoey-on-github/deepthroat.js",
+"main":"index.js",
+"keywords": [
+    "tiny",
+    "npm",
+    "twitter",
+    "object",
+    "copy",
+    "deep"
+]
 }
