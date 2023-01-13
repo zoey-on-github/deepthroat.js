@@ -4,7 +4,7 @@ module.exports = function deepthroat(object) {
     }
     var output = new object.constructor();
     for (var i in object) {
-        output[i] = deepthroat(object[i]);
+        output[i] = module.exports(object[i]);
     }
     return output;
 }
