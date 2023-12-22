@@ -1,3 +1,3 @@
-deepthroat = (object) => typeof object == "number" || object == null || object instanceof Function ? object : (new object.constructor()).map((input) => module.exports(input))
+deepthroat = (o) => JSON.parse(JSON.stringify(o));
 
 module.exports = deepthroat
