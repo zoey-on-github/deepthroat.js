@@ -1,10 +1,3 @@
-module.exports = function deepthroat(object) {
-    if (typeof object == "number" || object == null || object == true || object == false || object instanceof Function) {
-        return object;
-    }
-    var output = new object.constructor();
-    for (var i in object) {
-        output[i] = module.exports(object[i]);
-    }
-    return output;
-}
+deepthroat = (object) => typeof object == "number" || object == null || object instanceof Function ? object : (new object.constructor()).map((input, i) => output[i] = module.exports(input))
+
+module.exports = deepthroat
