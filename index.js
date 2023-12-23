@@ -1,4 +1,4 @@
-import init, { deep_throat } from "./rust-deps/pkg/rust_deps.js";
+import init, { deep_throat } from "./rust-deps/pkg/rust-deps.js";
 
 // Define a function that encapsulates the logic
 async function deepthroat(input) {
