@@ -1,1 +1,22 @@
-{"name":"@julieonnode/deepthroat","version":"1.0.0","description":"deep copies a object","license":"MIT","repository":"zoey-on-github/deepthroat.js","main":"index.js","keywords":["tiny","npm","twitter","object","copy","deep"],"dependencies":{"express":"^4.18.2","express-generator":"^4.14.1","serve":"^14.2.1"}}
+{
+	"name": "@julieonnode/deepthroat",
+	"version": "1.0.0",
+	"description": "deep copies a object",
+	"license": "MIT",
+	"repository": "zoey-on-github/deepthroat.js",
+	"main": "index.js",
+	"type": "module",
+	"keywords": [
+	  "tiny",
+	  "npm",
+	  "twitter",
+	  "object",
+	  "copy",
+	  "deep"
+	],
+	"dependencies": {
+	  "express": "^4.18.2",
+	  "express-generator": "^4.14.1",
+	  "serve": "^14.2.1"
+	}
+  }
